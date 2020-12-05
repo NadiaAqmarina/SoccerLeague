@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/background">
+        <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            app:neomorph_view_type="rectangular"
+            app:neomorph_shadow_type="outer"
+            app:neomorph_elevation="4dp"
+            app:neomorph_corner_radius="10dp"
+            app:neomorph_background_color="@color/background"
+            app:neomorph_shadow_color="@color/shadow"
+            app:neomorph_highlight_color="@color/highlight"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="List Player"
+                android:textColor="@color/shadow"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+        </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/background">
+        <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            app:neomorph_view_type="rectangular"
+            app:neomorph_shadow_type="outer"
+            app:neomorph_elevation="4dp"
+            app:neomorph_corner_radius="10dp"
+            app:neomorph_background_color="@color/background"
+            app:neomorph_shadow_color="@color/shadow"
+            app:neomorph_highlight_color="@color/highlight"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="My Favourites"
+                android:textColor="@color/shadow"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+        </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
